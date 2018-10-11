@@ -1,0 +1,4 @@
+/* pages/loginin/form.wxss */
+.ipt{
+	border:1px solid #000
+}

@@ -1,0 +1,5 @@
+<!--pages/loginin/index.wxml-->
+<view wx:for="{{list}}">
+	<text>classid:{{item.class_id}}\ntime:{{item.time}}</text>
+	<view>-----------</view>
+</view>

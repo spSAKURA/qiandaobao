@@ -1,0 +1,11 @@
+<!--pages/class/detail.wxml-->
+<text>length:{{list.length}}</text>
+<view wx:for="{{list}}">
+	<text>
+		openid:{{item._openid}}
+		name:{{item.name}}
+		time:{{item.time}}
+		-----------------------
+	</text>
+</view>
+<button id="{{class_id}}" bindtap="showQrcode">展示二维码</button>

@@ -1,0 +1,6 @@
+<!--pages/index/index.wxml-->
+<button bindtap='scanCode'>扫一扫</button>
+<button bindtap='createClass'>创建一次课堂签到</button>
+<button bindtap='toLoginList'>我的签到历史</button>
+<button bindtap='toClassList'>我创建的签到</button>
+<text>{{message}}</text>

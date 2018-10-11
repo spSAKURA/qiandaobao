@@ -1,0 +1,7 @@
+<!--pages/loginin/form.wxml-->
+<text>{{message}}</text>
+<form wx:if="{{!isloginined}}" bindsubmit='onSigninin'>
+	<input name="name" class="ipt" placeholder="请签名" auto-focus/>
+	<button form-type='submit'>签到！</button>
+</form>
+<button wx:if="{{isloginined}}" bindtap='back'>返回</button>

@@ -1,0 +1,5 @@
+<!--pages/class/list.wxml-->
+<text>课堂列表</text>
+<button wx:for="{{class_list}}" id="{{item._id}}" bindtap="btclassOnClock">
+	创建时间：{{item.time}}
+</button>
